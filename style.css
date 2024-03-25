@@ -1,0 +1,176 @@
+
+body{
+    font-family:Source Sans Pro, Arial, Helvetica, sans-serif;
+    background-color:#f2f2f2;
+}
+
+ol, ul {
+    padding-left:0;
+}
+
+.nav-logo {
+    width: 254px;
+    height:82px;
+}
+#navbarNav{
+    display:flex;
+    justify-content:end;
+}
+
+.nav-item{
+    /*background-color:#cccccc;*/
+    color:black;
+}
+
+.nav-item a:hover{
+    color:#b00c17;
+}
+
+.nav-link:hover{
+    color:#b00c17;
+}
+
+#jupiter:hover{
+    color:#d36a34;
+}
+
+.resources-section{
+    width:74.375vw;
+    background-color:#333333;
+    color:white;
+    margin-left:auto;
+    margin-right:auto;
+    overflow:auto;
+}
+
+.resources-section h3{
+    color:white;
+}
+
+.spacer-container{
+    margin-left:1em;
+    margin-right:1em;
+    margin-top:1em;
+}
+
+.feature-icon{
+    color:red;
+}
+
+.resources-section .row{
+    padding-left:0 !important;
+    padding-right:0 !important;
+    margin-right:0;
+    margin-left:0;
+}
+
+body > main > div.resources-section > div:nth-child(1){
+    padding-top:0;
+}
+.feature p{
+    width:auto;
+}
+
+.feature{
+    /*border:2px black solid;*/
+    padding-left:0;
+    padding-right:0;
+    width:33.33%;
+}
+
+
+
+.main-container{
+    background-color:#b00c17;
+}
+
+
+.intro-video-section{
+    display:flex;
+    justify-content:center;
+    margin-left:auto;
+    margin-right:auto;
+    width:74.375vw;
+    height:62.5vh;
+    filter: brightness(50%);
+    background-image:url('./media/school-background.jpg');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    /*overflow:hidden;*/
+    /*background-color:purple;*/
+}
+
+.video{
+    width:20vw;
+    height:40vh;
+    border:2px black solid;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10vh;
+}
+
+.quick-nav-container{
+    background-color:black;
+    color:white;
+    width:74.375vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.quick-nav-list{
+    list-style-type:none;
+    display:flex;
+    justify-content:space-around;
+    margin-bottom:0;
+}
+.quick-nav-item{
+    font-size:1.15em;
+    line-height:20px;
+    padding: 35px 40px;
+    text-transform:uppercase;
+    font-weight:normal;
+}
+.quick-nav-list a{
+    text-decoration:none;
+    color:inherit;
+    width:100%;
+    text-align:center;
+}
+
+.quick-nav-list a:hover{
+    background-color:#222222;
+}
+
+
+/*
+.intro-video-section{
+    width:74.375vw;
+    background-color:blue;
+    margin-left:auto;
+    margin-right:auto;
+    height:62.5vh;
+}*/
+
+/* code for nested dropdown menu is below*/
+
+.dropdown-menu .dropdown-submenu {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: -7px;
+    background-color: white;
+}
+
+#nested-parent-dropdown {
+    position:relative;
+    left: auto;
+}
+
+
+#nested-parent-dropdown:hover .dropdown-submenu {
+    display:block;
+    right:auto;
+    left:100%;
+}
